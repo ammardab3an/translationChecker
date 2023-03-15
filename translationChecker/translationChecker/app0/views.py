@@ -101,8 +101,8 @@ def process_body(body):
     suf_style = "</style>"
 
     res = []
-    translated_cnt = 0
-    words_cnt = 0
+    translated_cnt = 1
+    words_cnt = 1
     
     for e in [e.strip() for e in body.prettify(formatter="html").split('\n')]:
         
